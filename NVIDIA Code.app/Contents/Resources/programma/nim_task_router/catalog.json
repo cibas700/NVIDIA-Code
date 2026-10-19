@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-10-18",
+  "complete": false,
+  "note": "Seed catalog, not an exhaustive free-endpoint inventory. Tiers are provisional routing policy, not benchmark rankings. Free labels were checked on model pages; account access and tools still need live validation.",
+  "models": [
+    {"id":"poolside/laguna-xs-2.1","tier":"balanced","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/poolside/laguna-xs-2.1"},
+    {"id":"nvidia/nemotron-3.5-lightning-30b-a3b","tier":"fast","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b"},
+    {"id":"nvidia/nemotron-3-ultra-550b-a55b","tier":"deep","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b"},
+    {"id":"stepfun-ai/step-5-preview","tier":"deep","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/stepfun-ai/step-5-preview"},
+    {"id":"z-ai/glm-5.3-flash","tier":"balanced","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/z-ai/glm-5-3-flash"},
+    {"id":"meta/muse-glimmer-30b","tier":"fast","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/meta/muse-glimmer-30b"},
+    {"id":"nvidia/nemotron-3.5-super-vl-120b-a12b","tier":"balanced","free_endpoint":true,"tools":true,"source":"https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b"}
+  ]
+}

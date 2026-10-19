@@ -1,0 +1,95 @@
+{
+  "models": [
+    {
+      "id": "poolside/laguna-xs-2.1",
+      "tier": "balanced",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/poolside/laguna-xs-2.1",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "tier": "fast",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "tier": "deep",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "stepfun-ai/step-5-preview",
+      "tier": "deep",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/stepfun-ai/step-5-preview",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "tier": "balanced",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/z-ai/glm-5-3-flash",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "tier": "fast",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/meta/muse-glimmer-30b",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "tier": "balanced",
+      "free_endpoint": true,
+      "tools": true,
+      "source": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "enabled": true,
+      "max_input_bytes": 180000,
+      "max_output_tokens": 8192,
+      "extra_body": {}
+    }
+  ],
+  "first_token_seconds": {
+    "fast": 45,
+    "balanced": 75,
+    "deep": 120
+  },
+  "idle_seconds": 60,
+  "total_seconds": 240,
+  "max_attempts": 2,
+  "max_calls_per_run": 100,
+  "rpm": 10,
+  "cooldown_seconds": 90,
+  "max_request_bytes": 2097152,
+  "max_response_bytes": 8388608,
+  "api_key_file": "nvidia-api-key.txt"
+}
